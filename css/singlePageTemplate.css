@@ -74,8 +74,8 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B59A57;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .light {
 	font-weight: bold;
@@ -149,6 +149,11 @@ footer {
 	text-align: center;
 	padding-top: 1px;
 	float: left;
+}
+.clipCircle {
+  clip-path: circle(100px at center);
+  /* OLD VALUE example: circle(245px, 140px, 50px); */
+  /* Yep, even the new clip-path has deprecated stuff. */
 }
 footer .footer_column h3 {
 	color: #343434;
